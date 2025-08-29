@@ -104,23 +104,24 @@ Use this yes/no framework to quickly self-assess before investor meetings.
 
 ```mermaid
 flowchart TD
-    A[Start: Preparing for Fundraise] --> B{Market is real & sized?}
-    B -- No --> B1[Quantify TAM/SAM/SOM • Validate pain • Timing] --> B
-    B -- Yes --> C{Clear differentiator vs. competitors?}
-    C -- No --> C1[Sharpen positioning • Prove moat • Case studies] --> C
-    C -- Yes --> D{Efficient growth engine? (CAC/LTV)}
-    D -- No --> D1[Clarify ICP • Channel tests • Pricing] --> D
-    D -- Yes --> E{Tech/IP defensible & scalable?}
-    E -- No --> E1[Document IP • Roadmap • Risk controls] --> E
-    E -- Yes --> F{Legal clean? (entity, IP, contracts)}
-    F -- No --> F1[Clean cap table • Assign IP • Policies] --> F
-    F -- Yes --> G{Financial plan & runway clear?}
-    G -- No --> G1[12–18 mo plan • Burn • Milestones] --> G
-    G -- Yes --> H{Team can execute under pressure?}
-    H -- No --> H1[Fill gaps • Advisors • Track record] --> H
-    H -- Yes --> I{Deal compelling? (valuation, terms, ROI)}
-    I -- No --> I1[Recalibrate valuation • Structure terms] --> I
-    I -- Yes --> J[Go to Investors: Deck • Data Room • Targets]
+    A["Start: Preparing for Fundraise"] --> B{"Market is real and sized?"}
+    B -- "No" --> B1["Quantify TAM / SAM / SOM<br/>Validate pain<br/>Timing"]
+    B -- "Yes" --> C{"Clear differentiator vs competitors?"}
+    C -- "No" --> C1["Sharpen positioning<br/>Prove moat<br/>Case studies"]
+    C -- "Yes" --> D{"Efficient growth engine (CAC : LTV)?"}
+    D -- "No" --> D1["Clarify ICP<br/>Channel tests<br/>Pricing"]
+    D -- "Yes" --> E{"Tech or IP defensible and scalable?"}
+    E -- "No" --> E1["Document IP<br/>Roadmap<br/>Risk controls"]
+    E -- "Yes" --> F{"Legal clean (entity, IP, contracts)?"}
+    F -- "No" --> F1["Clean cap table<br/>Assign IP<br/>Policies"]
+    F -- "Yes" --> G{"Financial plan and runway clear?"}
+    G -- "No" --> G1["12–18 month plan<br/>Burn<br/>Milestones"]
+    G -- "Yes" --> H{"Team can execute under pressure?"}
+    H -- "No" --> H1["Fill gaps<br/>Advisors<br/>Track record"]
+    H -- "Yes" --> I{"Deal compelling (valuation, terms, ROI)?"}
+    I -- "No" --> I1["Recalibrate valuation<br/>Structure terms"]
+    I -- "Yes" --> J["Go to investors:<br/>Deck • Data room • Targets"]
+
 ````
 
 ---
